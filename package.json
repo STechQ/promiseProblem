@@ -1,0 +1,26 @@
+{
+  "name": "promise-problem",
+  "version": "1.0.119",
+  "main": "./bin/program.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
+    "start": "node ./bin/sample"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "exporter": "./bin/program.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "bin",
+    ".npmrc",
+    "templates"
+  ]
+}
