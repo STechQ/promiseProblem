@@ -17,9 +17,9 @@ class test {
         return item;
     }
     private async test2(item: Promise<number>) {
-        if (Math.random() < 2) { throw new Error("aa"); }
+        if (Math.random() < 2) { throw new Error("aa"); } //comment this
         const num = await item;
-        // if (Math.random() < 2) { throw new Error("aa"); }
+        // if (Math.random() < 2) { throw new Error("aa"); } //uncomment this for successfull handling
         if (num == 4) {
             await this.wait();
             await this.wait();
